@@ -1,0 +1,8 @@
+1. server.js sets up the routes to use
+2. the client is responsible for filling in the information to be passed to the database, the server handles everything else, taking the data, turning it into an object and passing it to the db.
+3. server.js creates the connections between the client facing server, and the mongodb server.  it also creates the routes to use for the server.
+4. gamesRouter is a router made from the collection of games held in the db
+5. it calls for GamesService, so it can pass data to and get data from the database using routes.
+6. baseurl, it is the url of the api to be read from
+7. get, post, and delete
+8. it allows javascript apps to connect with mongodb.
